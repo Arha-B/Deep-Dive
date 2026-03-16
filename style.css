@@ -1,0 +1,19 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #000008;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: monospace;
+}
+
+#c {
+  display: block;
+  /* Keeps pixel art sprites crisp when the canvas is CSS-scaled up.
+     Text is now rendered at a real resolution (640x400) so it looks sharp too. */
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
