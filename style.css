@@ -12,8 +12,6 @@ body {
 
 #c {
   display: block;
-  /* Keeps pixel art sprites crisp when the canvas is CSS-scaled up.
-     Text is now rendered at a real resolution (640x400) so it looks sharp too. */
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
